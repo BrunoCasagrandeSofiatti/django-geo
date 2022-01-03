@@ -19,7 +19,7 @@ class IndexView(View):
         loc = request.GET.get('loc', None)
         location = city
 
-        context = {
+        context = {            
             'city': city,
             'busca': False
         }
