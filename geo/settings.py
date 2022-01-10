@@ -45,6 +45,9 @@ INSTALLED_APPS = [
 
     'core',
     'persons',
+    'charts',
+    'chartjs',
+    'bootstrap4'
 ]
 
 MATERIAL_ADMIN_SITE = {
