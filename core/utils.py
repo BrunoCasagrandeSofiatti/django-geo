@@ -25,7 +25,7 @@ def get_client_city_data():
     ip = get_randow_ip()
     try:
         return g.city(ip)
-    except geoip2.errors.AddressNotFoudError:
+    except:
         return None
 
 def get_randow_ip():
